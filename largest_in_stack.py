@@ -1,3 +1,7 @@
+# How to get access to the largest integer in the stack? 
+# O(1) time for push(), pop() and get_max()
+# O(m) additional space, where m is the number of operations performed on the stack  
+
 class Stack(object):
     def __init__(self):
         self.items = []
